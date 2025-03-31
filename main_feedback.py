@@ -16,7 +16,7 @@ import re
 
 problems: dict = read_problems()
 
-NUM_TASKS: int = 165
+NUM_TASKS: int = 164
 NUM_ATTEMPTS: int = 3
 
 def extract_python_code(text: str) -> str:
@@ -52,7 +52,7 @@ for id in problems:
             solucao_llm = get_completion_with_feedback(enunciado, previous_attempt, tester_feedback, MODEL)
 
         print("solução gerada")
-        
+
         # guardando saída completa, que pode incluir linguagem natural e não apenas código
         full_samples.append(dict(task_id=id,completion=solucao_llm))
 

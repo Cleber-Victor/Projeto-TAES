@@ -35,7 +35,8 @@ def process_models(models):
         json.dump(results, out_file, indent=4)
 
 # Example usage
-models = [ "llama-3.3-70b-versatile",
+models = [ "qwen-2.5-coder-32b",
+           "llama-3.3-70b-versatile",
            "llama-3.1-8b-instant",
            "llama3-70b-8192",
            "llama3-8b-8192",

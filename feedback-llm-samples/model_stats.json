@@ -1,4 +1,13 @@
 {
+    "qwen-2.5-coder-32b": {
+        "pass_1_abs": 124,
+        "pass_1_rel": 0.7560975609756098,
+        "pass_2_abs": 145,
+        "pass_2_rel": 0.8841463414634146,
+        "pass_3_abs": 147,
+        "pass_3_rel": 0.8963414634146342,
+        "avg_attempts": 1.1700680272108843
+    },
     "llama-3.3-70b-versatile": {
         "pass_1_abs": 136,
         "pass_1_rel": 0.8292682926829268,

@@ -13,7 +13,7 @@ def plot_stats(json_file):
     x = np.arange(len(models))
     width = 0.2  # Width of each bar
     
-    fig, ax = plt.subplots()
+    fig, ax = plt.subplots(figsize=(12, 6))  # Set larger figure size
     
     for i, category in enumerate(categories):
         values = [data[model][category] for model in models]
@@ -29,4 +29,4 @@ def plot_stats(json_file):
     plt.show()
 
 # Example usage
-plot = plot_stats("model_stats.json")
+plot_stats("model_stats.json")

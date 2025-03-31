@@ -5,10 +5,9 @@ import os
 
 from groq import Groq
 
+GROQ_API_KEY = "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"
 
-GROQ_API_KEY = "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"
-
-def get_completion(prompt: str) -> str:
+def get_completion(prompt: str, MODEL: str) -> str:
 
     client = Groq(
     api_key=GROQ_API_KEY,
@@ -22,7 +21,7 @@ def get_completion(prompt: str) -> str:
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": prompt}
     ],
-    model="llama-3.3-70b-versatile",
+    model=MODEL,
     )
     
     return chat_completion.choices[0].message.content

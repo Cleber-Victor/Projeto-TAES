@@ -1,0 +1,56 @@
+{
+    "qwen-2.5-coder-32b": {
+        "pass_1_abs": 4,
+        "pass_1_rel": 1.0,
+        "pass_2_abs": 4,
+        "pass_2_rel": 1.0,
+        "pass_3_abs": 4,
+        "pass_3_rel": 1.0,
+        "avg_attempts": 1.0
+    },
+    "llama-3.3-70b-versatile": {
+        "pass_1_abs": 4,
+        "pass_1_rel": 1.0,
+        "pass_2_abs": 4,
+        "pass_2_rel": 1.0,
+        "pass_3_abs": 4,
+        "pass_3_rel": 1.0,
+        "avg_attempts": 1.0
+    },
+    "llama-3.1-8b-instant": {
+        "pass_1_abs": 2,
+        "pass_1_rel": 0.5,
+        "pass_2_abs": 3,
+        "pass_2_rel": 0.75,
+        "pass_3_abs": 3,
+        "pass_3_rel": 0.75,
+        "avg_attempts": 1.3333333333333333
+    },
+    "llama3-70b-8192": {
+        "pass_1_abs": 3,
+        "pass_1_rel": 0.75,
+        "pass_2_abs": 3,
+        "pass_2_rel": 0.75,
+        "pass_3_abs": 3,
+        "pass_3_rel": 0.75,
+        "avg_attempts": 1.0
+    },
+    "llama3-8b-8192": {
+        "pass_1_abs": 0,
+        "pass_1_rel": 0.0,
+        "pass_2_abs": 1,
+        "pass_2_rel": 0.25,
+        "pass_3_abs": 3,
+        "pass_3_rel": 0.75,
+        "avg_attempts": 2.6666666666666665
+    },
+    "gemma2-9b-it": {
+        "pass_1_abs": 2,
+        "pass_1_rel": 0.5,
+        "pass_2_abs": 2,
+        "pass_2_rel": 0.5,
+        "pass_3_abs": 3,
+        "pass_3_rel": 0.75,
+        "avg_attempts": 1.6666666666666667
+    }
+}
